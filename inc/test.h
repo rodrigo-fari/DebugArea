@@ -1,7 +1,10 @@
 #ifndef TEST_H
 # define TEST_H
+//| 🧙🏼‍♂️ | Feel free to change whatever you want!
 
 //=====================================| Colors |
+//| 🎨 | Some for debugging, use them!
+
 # define RED "\001\033[1;31m\002"
 # define YELLOW "\001\033[1;33m\002"
 # define GREEN "\001\033[1;32m\002"
@@ -11,6 +14,8 @@
 # define RESET "\001\033[0m\002"
 
 //=====================================| Libraries |
+//| 👇🏼 | If you need, add more libraries here.
+
 # include <stdio.h>
 # include <stdlib.h>
 # include <unistd.h>
@@ -29,6 +34,12 @@
 # include <term.h>
 # include <stddef.h>
 # include "../src/libft/libft.h"
+//| 👆🏼 | You can use your own libft, just make sure do include the right path!
+
+//=====================================| Functions |
+//| 👇🏼 | Add your functions here.
 
 //=====================================| Endif |
 #endif
+
+//| 🧙🏼‍♂️ | Good Luck! I hope you can find a solution for whatever is the problem you are facing ;p.

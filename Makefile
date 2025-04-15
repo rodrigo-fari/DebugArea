@@ -68,5 +68,4 @@ re: 				fclean all
 val:
 					valgrind --leak-check=full \
 						--show-leak-kinds=all -s \
-						--log-file=valgrind_out.txt \
-						--suppressions=readline_leaks ./$(NAME)
+						--log-file=valgrind_out.txt ./$(NAME)
